@@ -12,7 +12,7 @@
 <body>
     <h1>Electric Vehicle Charging Times</h1>
 
-    <canvas id="chargingTimesChart" width="400" height="200"></canvas>
+    <canvas id="chargingTimesChart" width="100" height="100"></canvas>
 
     <script>
         const electricVehicles = [
@@ -88,6 +88,16 @@
 
         $('#dataContainer').hide().fadeIn(1000);
     </script>
+
+<script src="//d3js.org/d3.v4.js"></script>
+<body>
+<h2>D3.js library example</h2>
+<p>The script below selects the body element and appends a paragraph with the text "Hello World!":</p> 
+
+<script>
+d3.select("body").append("p").text("Hello World!");
+</script>
+
 
 </body>
 </html>
